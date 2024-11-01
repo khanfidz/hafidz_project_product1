@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styleproduct.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="product">
+            <div class="gallery">
+                <img src="images/Nintendo Green.jpg" alt="Nintendo Switch Green" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Nintendo Switch</h1>
+                <h2>Rp3.999.00</h2>
+                <h3>By: Nintendo</h3>
+                <p>Nintendo Switch (ニンテンドースイッチ, Nintendō Suitchi) adalah konsol video game yang dirilis perusahaan Nintendo pada 3 Maret 2017. Konsol ini juga dikenal dengan codename NX pada pengembangannya. Konsol ini dijual seharga ¥32,023.87 pada tanggal perilisannya
+
+                    Sejauh ini, konsol ini merupakan satu-satunya konsol hybrid - konsol yang merupakan konsol rumahan namun sekaligus konsol portabel juga. Lebih jelasnya, konsol ini dapat dimainkan dengan 3 cara,
+                    Home Console Way dengan meletakkan layarnya pada docking station-nya dan memainkannya melalui televisi
+                    Handheld Way dengan memainkannya sambil memegangnya
+                    Tabletop Way dengan meletakkannya diatas meja dan mencabut kontrolernya dan memainkannya sambil bersantai di kursi.</p>
+                <form>
+                    <div class="option">
+                        <p>Option :</p>
+                        <label for="Nintendo Green">
+                            <input type="radio" name="option" id="Nintendo Green" data-image="images/Nintendo Green.jpg">
+                            <span class="color-1"></span>
+                            <span>Nintendo Green</span>
+                        </label>
+                        <label for="Nintendo Yellow">
+                            <input type="radio" name="option" id="Nintendo Yellow" data-image="images/Nintendo Yellow.jpg">
+                            <span class="color-2"></span>
+                            <span>Nintendo Yellow</span>
+                        </label>
+                        <label for="Nintendo White">
+                            <input type="radio" name="option" id="Nintendo White" data-image="images/Nintendo White.jpg">
+                            <span class="color-3"></span>
+                            <span>Nintendo White</span>
+                        </label>
+                    </div>
+
+             
+
+                    <div class="quantity">
+                        <p>Quantity</p>
+                        <input type="number" id="quantityinput" value="1" min="1">
+                        <p id="stockinfo"></p>
+                    </div>
+                    <a href=""><button type="button" id="buybutton">Tambahkan Keranjang</button></a>
+                </form></br>
+                <h3 style="padding-left:30px;">Beli Sekarang Juga!</h3>
+            </div>
+        </div>
+        <script type="text/javascript" src="scriptproduct.js"></script>
+</body>
+</html>
